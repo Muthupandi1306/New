@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Orange,Chrome 87.0.4280.88,,,2021-01-07 12:29:22,2021-01-07 12:29:44,21.914s,PASSED
+,,,,,,,
+Test Cases/Test1,Chrome 87.0.4280.88,,,2021-01-07 12:29:23,2021-01-07 12:29:44,20.571s,PASSED
+"openBrowser("""")",Chrome 87.0.4280.88,,,2021-01-07 12:29:24,2021-01-07 12:29:27,3.450s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/"")",Chrome 87.0.4280.88,,,2021-01-07 12:29:27,2021-01-07 12:29:34,6.898s,PASSED
+"click(findTestObject(""Object Repository/Orange/span_Username""))",Chrome 87.0.4280.88,,,2021-01-07 12:29:34,2021-01-07 12:29:35,0.533s,PASSED
+"setText(findTestObject(""Object Repository/Orange/input_LOGIN Panel_txtUsername""), Username)",Chrome 87.0.4280.88,,,2021-01-07 12:29:35,2021-01-07 12:29:36,0.644s,PASSED
+"setText(findTestObject(""Object Repository/Orange/input_Username_txtPassword""), Password)",Chrome 87.0.4280.88,,,2021-01-07 12:29:36,2021-01-07 12:29:36,0.663s,PASSED
+"click(findTestObject(""Object Repository/Orange/input_Password_Submit""))",Chrome 87.0.4280.88,,,2021-01-07 12:29:36,2021-01-07 12:29:43,6.945s,PASSED
+closeBrowser(),Chrome 87.0.4280.88,,,2021-01-07 12:29:43,2021-01-07 12:29:44,0.940s,PASSED
